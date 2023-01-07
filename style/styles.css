@@ -17,8 +17,16 @@
   color: #fff;
   font-size: 20px;
   border: none;
+  cursor: pointer;
 }
 
+.primary-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #151414;
+  margin-bottom: 24px;
+}
 /* header starts */
 header {
   background-image: url(../images/banner/banner1.png);
@@ -93,9 +101,174 @@ nav h2 {
   font-size: 16px;
   line-height: 26px;
   color: #444343;
-  margin-bottom: 32px;
+  margin-bottom: 24px;
 }
 
 .banner-button {
   margin-bottom: 125px;
+}
+
+/* banner ends */
+
+/* stats starts */
+
+.stats {
+  display: flex;
+  gap: 30px;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.design h2 {
+  font-weight: 700;
+  font-size: 48px;
+  color: #f15b22;
+}
+
+.design p {
+  font-weight: 400;
+  font-size: 24px;
+  text-transform: capitalize;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #f15b22;
+}
+
+/* stats ends */
+
+/* failurs section styles */
+
+.failures {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.failures-texts li {
+  list-style: none;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+/* plans section styles */
+
+.plans {
+  margin-top: 130px;
+}
+
+.plans-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+  text-align: center;
+}
+
+.to-do-plans {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 75px;
+}
+
+.to-do-title {
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  color: #151414;
+  margin: 16px 0;
+}
+
+.to-do-para {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: center;
+  color: #737272;
+}
+
+/* call now styles */
+
+.call-now {
+  margin-top: 130px;
+  background: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%);
+  border-radius: 8px;
+  background-image: linear-gradient(
+      90deg,
+      #f15b22 0%,
+      rgba(241, 91, 34, 0) 100%
+    ),
+    url(../images/watch.png);
+  background-size: 100%;
+  padding: 80px;
+}
+
+.call-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #fff;
+  margin-bottom: 32px;
+}
+
+.btn-call {
+  width: 160px;
+  height: 64px;
+  background: #fff;
+  border-radius: 5px;
+  color: #f15b22;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+/* footer styles */
+
+footer {
+  background-color: #151414;
+  padding: 100px 100px 20px 100px;
+  margin-top: 150px;
+}
+
+.footer-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 0 130px;
+}
+.footer-text img {
+  margin-right: 20px;
+}
+.footer-para {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+  margin-bottom: 24px;
+}
+
+.subscribe h3 {
+  font-weight: 600;
+  font-size: 25px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.subscribe input {
+  border: 1px solid #fff;
+  border-radius: 10px;
+  background-color: #151414;
+  display: inline;
+  padding: 20px 80px 20px 15px;
+
+  margin-bottom: 25px;
+}
+
+.copywrite {
+  margin-top: 50px;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 400;
+  text-align: center;
 }
